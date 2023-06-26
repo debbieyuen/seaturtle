@@ -1,5 +1,31 @@
 {
   "dependencies": {
+    "com.appmana.unity.public": {
+      "version": "https://github.com/AppMana/appmana-unity-plugin.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.inputsystem": "1.5.0",
+        "com.unity.nuget.newtonsoft-json": "1.0.0",
+        "com.cysharp.unitask": "2.3.3",
+        "com.neuecc.unirx": "7.1.0"
+      },
+      "hash": "64234764b2ec20069e9ba07244084f8c4bba0b6d"
+    },
+    "com.cysharp.unitask": {
+      "version": "2.3.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.neuecc.unirx": {
+      "version": "7.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -164,6 +190,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.5.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 1345574343}
   - component: {fileID: 1345574342}
   - component: {fileID: 1345574341}
+  - component: {fileID: 1345574344}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -447,6 +448,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345574344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345574340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977df0ac8b84456e955e6e2d6933851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 1345574342}
+  m_AudioListener: {fileID: 1345574341}
+  m_Actions: {fileID: -944628639613478452, guid: b08e90b9cd3694753a33fbed896498c9, type: 3}
+  m_CanvasScalers: []
+  m_OnPlayerConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnPlayerDisconnected:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StreamInEditMode: 0
+  m_EnablePlayerPrefs: 1
+  m_EnableUrlParameters: 0
+  m_OfflineUrlParameters: []
 --- !u!1 &1487154648
 GameObject:
   m_ObjectHideFlags: 0
